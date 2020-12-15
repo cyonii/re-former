@@ -1,28 +1,14 @@
-<h1>Edit user</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <h1>Edit user</h1>
 
-<!-- <form action="/users" method="post" >
-    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-    <label for="username">User name:</label>
-    <input type="text" id="user_username" name="user[username]" />
-    <label for="email">Email</label>
-    <input type="email" id="email" name="user[email]">
-    <label for="password">Password</label>
-    <input type="password" name ="user[password]">
-    <input type="submit" name="submit" value="Submit">
-</form> -->
+          <%= render 'form', user: @user %>
 
-<!-- <%= form_tag('/users', method: 'post', controller: :user) do %>
-  <%= label_tag(:username, 'Username') %>
-  <%= text_field(:user, :username) %>
-
-  <%= label_tag(:username, 'Email') %>
-  <%= text_field(:user, :email) %>
-
-  <%= label_tag(:username, 'Password') %>
-  <%= text_field(:user, :password) %>
-
-  <%= submit_tag('Submit') %>
-<% end %> -->
-
-
-<%= render 'form', user: @user %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
