@@ -26,10 +26,6 @@ This is project about the creating the simple HTML form Using Rails. This projec
 - SQLite3
 - Bootstrap
 
-## Live Demo
-
-[Live Demo Link]()
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
