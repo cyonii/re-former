@@ -1,7 +1,7 @@
 # Re-Former
 
 ### Description
-This is part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
+This Project was part of the Forms Project in The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com
 
 
 ![screenshot](Screenshot.png)
@@ -10,7 +10,7 @@ This is part of the Forms Project in The Odin Project’s Ruby on Rails Curricul
 
 <!-- This project is based on the . -->
 
-This is project about the creating the simple HTML form Using Rails. This project is based on The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com.
+This project was about creating a simple HTML Form Using Rails. This project was based on The Odin Project’s Ruby on Rails Curriculum. Find it at http://www.theodinproject.com.
 
 **Features**
 - Add New User

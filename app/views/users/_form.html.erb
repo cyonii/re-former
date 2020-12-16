@@ -12,15 +12,15 @@
     </div>
   <% end %>
   <div class="mb-3">
-    Username: <%= f.text_field :username, class: 'form-control' %>
+    <%= label_tag(:username, 'Username') %>: <%= f.text_field :username, class: 'form-control' %>
   </div>
 
   <div class="mb-3">
-    Email: <%= f.text_field :email, class: 'form-control' %>
+     <%= label_tag(:email, 'Email') %>: <%= f.email_field :email, class: 'form-control' %>
   </div>
 
   <div class="mb-3">
-    Password: <%= f.password_field :password, class: 'form-control' %>
+     <%= label_tag(:password, 'Password') %>: <%= f.password_field :password, class: 'form-control' %>
   </div>
 
   <%= f.submit 'Submit', :class => 'btn btn-primary rounded-1' %>
