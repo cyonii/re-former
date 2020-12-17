@@ -1,0 +1,27 @@
+<%= form_with model: @user, local: true do |f| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <div class="alert alert-danger">
+        <%= pluralize(user.errors.count, "error") %> prohibited this User from being saved:
+      </div>
+      <ul class="list-group list-group-flush mb-2">
+        <% user.errors.full_messages.each do |message| %>
+          <li class="list-group-item py-1 text-danger"><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="mb-3">
+    <%= label_tag(:username, 'Username') %>: <%= f.text_field :username, class: 'form-control' %>
+  </div>
+
+  <div class="mb-3">
+     <%= label_tag(:email, 'Email') %>: <%= f.email_field :email, class: 'form-control' %>
+  </div>
+
+  <div class="mb-3">
+     <%= label_tag(:password, 'Password') %>: <%= f.password_field :password, class: 'form-control' %>
+  </div>
+
+  <%= f.submit 'Submit', :class => 'btn btn-primary rounded-1' %>
+<% end %>
